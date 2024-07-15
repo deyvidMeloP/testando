@@ -14,6 +14,8 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/teste",
+            "baseHref": "/testando/",
+            "deployUrl": "/testando/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
